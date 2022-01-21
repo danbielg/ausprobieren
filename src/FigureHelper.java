@@ -3,8 +3,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class FigureHelper {
-    // final = nicht aenderbar static = es muss kein objekt erstellt werden um es zu nutzen
-    // Liste vom typ point BlackPawn = machen eine liste vom typ point die aus einem array besteht
     public final static List<Point> BLACK_PAWN = Arrays.asList(
             new Point(0, 1),
             new Point(1, 1),
